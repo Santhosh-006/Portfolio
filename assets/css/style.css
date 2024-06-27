@@ -38,6 +38,7 @@ a{
     /* height: var(--header-height); */
     border-bottom: rgb(172, 172, 172) solid 1px;
     background-color: #fff;
+    z-index: 10;
     
 }
 
@@ -84,6 +85,7 @@ a{
     display: flex;
     align-items: center;
     margin: 50px;
+    height: 800px;
 }
 
 .home-content{
@@ -179,16 +181,77 @@ a{
     height: 100%;
 }
 
-@media  screen and (max-width:720px) {
-    .home{
-        flex-direction: column;
-    }
-    .home-content{
-        width: 50%;
-    }
-    .home-image{
-        width: 50%;
-        margin: auto;
-    }
-    
+.skills{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.skill-container{
+    row-gap: 10px;
+    text-align: center;
+    margin: 20px 100px;
+}
+
+.skill-title{
+    margin-bottom: 2px;
+}
+
+.skill-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: auto;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.name{
+    margin: 0 8px;
+}
+
+.skill-name i{
+    font-size: 20px;
+    color: var(--first-color);
+}
+
+.skill-percentage{
+    margin-right: 0;
+}
+
+.skill-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--first-color);
+    z-index: 2;
+}
+
+.skill-python{
+    width: 65%;
+}
+
+.skill-c{
+    width: 70%;
+}
+
+.skill-sql{
+    width: 60%;
+}
+
+.skill-html{
+    width: 90%;
+}
+
+.skill-css{
+    width: 80%;
+}
+
+.skill-js{
+    width: 60%;
 }
