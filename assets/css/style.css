@@ -187,11 +187,21 @@ a{
 }
 
 .skill-container{
+    display: flex;
+    justify-content: center;
     row-gap: 10px;
     text-align: center;
     margin: 20px 100px;
 }
+.skill-bars{
+    width: 65%;
+}
 
+
+.skill-image img{
+    width: 800px;
+    height: 800px;
+}
 .skill-title{
     margin-bottom: 2px;
 }
@@ -254,4 +264,51 @@ a{
 
 .skill-js{
     width: 60%;
+}
+
+.forms{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+.form-fields{
+    font-size: 15px;
+    margin: 7px;
+    width: 100%;
+    border-radius: 15px;
+    border: solid rgb(0, 0, 0) 0.5px;
+    padding: 17px;
+}
+
+.forms textarea{
+    height: 150px;
+}
+
+.button-form{
+    display: block;
+    font-size: 15px;
+    background-color: var(--first-color);
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-container{
+    margin-top: 20px;
+    background-color: #0e2431;
+    color: white;
+    text-align: center;
+    height: 175px;
+}
+
+.footer-icon{
+    font-size: 25px;
+    padding: 10px;
+    color: white;
 }

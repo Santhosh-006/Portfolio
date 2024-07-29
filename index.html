@@ -7,7 +7,7 @@
     </title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body class="">
+<body class="container">
 
     <!-- Header -->
      <header>
@@ -20,8 +20,8 @@
                     <li class="nav-list"><a href="#home" class="nav-link">Home</a></li>
                     <li class="nav-list"><a href="#about" class="nav-link">About</a></li>
                     <li class="nav-list"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-list"><a href="#" class="nav-link">Works</a></li>
-                    <li class="nav-list"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-list"><a href="#works" class="nav-link">Works</a></li>
+                    <li class="nav-list"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -69,67 +69,99 @@
       <section class="skills" id="skills">
         <h1 class="section-title">Skills</h1>
         <div class="skill-container">
-            <div class="skill-title">
-                <h2>Programming-language</h2>
-                <div class="skill-data">
-                    <div class="skill-name">
-                        <i class="fa-brands fa-python"></i>
-                        <span class="name">Python</span>
+            <div class="skill-bars">
+                <div class="skill-title">
+                    <h2>Programming-language</h2>
+                    <div class="skill-data">
+                        <div class="skill-name">
+                            <i class="fa-brands fa-python"></i>
+                            <span class="name">Python</span>
+                        </div>
+                        <div><span  class="skill-percentage">65%</span></div>
+                        <div class="skill-bar skill-python"></div>
                     </div>
-                    <div><span  class="skill-percentage">65%</span></div>
-                    <div class="skill-bar skill-python"></div>
-                </div>
-                <div class="skill-data">
-                    <div class="skill-name">
-                        <i class="fa-solid fa-c"></i>
-                        <span class="name">C Program</span>
+                    <div class="skill-data">
+                        <div class="skill-name">
+                            <i class="fa-solid fa-c"></i>
+                            <span class="name">C Program</span>
+                        </div>
+                        <div><span  class="skill-percentage">70%</span></div>
+                        <div class="skill-bar skill-c"></div>
                     </div>
-                    <div><span  class="skill-percentage">70%</span></div>
-                    <div class="skill-bar skill-c"></div>
+    
+    
                 </div>
+                <div class="skill-title">
+                    <h2>Database</h2>
+                    <div class="skill-data">
+                        <div class="skill-name">
+                            <i class="fa-solid fa-database"></i>
+                            <span class="name">MySQL</span>
+                        </div>
+                        <div><span  class="skill-percentage">60%</span></div>
+                        <div class="skill-bar skill-sql  "></div>
+                    </div>
+                </div>
+                <div class="skill-title">
+                    <h2>Frontend Development</h2>
+                    <div class="skill-data">
+                        <div class="skill-name">
+                            <i class="fa-brands fa-html5"></i>
+                            <span class="name">Html5</span>
+                        </div>
+                        <div><span  class="skill-percentage">90%</span></div>
+                        <div class="skill-bar skill-html  "></div>
+                    </div>
+                    <div class="skill-data">
+                        <div class="skill-name">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span class="name">CSS3</span>
+                        </div>
+                        <div><span  class="skill-percentage">80%</span></div>
+                        <div class="skill-bar skill-css  "></div>
+                    </div>
+                    <div class="skill-data">
+                        <div class="skill-name">
+                            <i class="fa-brands fa-js"></i>
+                            <span class="name">Javascript</span>
+                        </div>
+                        <div><span  class="skill-percentage">60%</span></div>
+                        <div class="skill-bar skill-js  "></div>
+                    </div>
+                </div>
+            </div>
 
-
-            </div>
-            <div class="skill-title">
-                <h2>Database</h2>
-                <div class="skill-data">
-                    <div class="skill-name">
-                        <i class="fa-solid fa-database"></i>
-                        <span class="name">MySQL</span>
-                    </div>
-                    <div><span  class="skill-percentage">60%</span></div>
-                    <div class="skill-bar skill-sql  "></div>
-                </div>
-            </div>
-            <div class="skill-title">
-                <h2>Frontend Development</h2>
-                <div class="skill-data">
-                    <div class="skill-name">
-                        <i class="fa-brands fa-html5"></i>
-                        <span class="name">Html5</span>
-                    </div>
-                    <div><span  class="skill-percentage">90%</span></div>
-                    <div class="skill-bar skill-html  "></div>
-                </div>
-                <div class="skill-data">
-                    <div class="skill-name">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <span class="name">CSS3</span>
-                    </div>
-                    <div><span  class="skill-percentage">80%</span></div>
-                    <div class="skill-bar skill-css  "></div>
-                </div>
-                <div class="skill-data">
-                    <div class="skill-name">
-                        <i class="fa-brands fa-js"></i>
-                        <span class="name">Javascript</span>
-                    </div>
-                    <div><span  class="skill-percentage">60%</span></div>
-                    <div class="skill-bar skill-js  "></div>
-                </div>
-            </div>
         </div>
+
       </section>
+      <!-- <section class="Works" id="works">
+        <h1 class="section-title">Works</h1>
+        <div class="works-container">
+
+
+        </div>
+
+      </section> -->
+      <section class="contact" id="contact">
+        <h1 class="section-title">Contact</h1>
+        <div class="forms forms-container">
+            <form action="">
+                <input type="text" name="Name" id="" placeholder="Name" class="form-fields"><br>
+                <input type="mail" name="Name" id="" placeholder="Email" class="form-fields"><br>
+                <textarea name="message" id="" class="form-fields message"></textarea><br>
+            </form>
+            <button type="submit" class="button-form form-button">Send</button>
+        </div>
+
+
+      </section>
+      <footer class="footer-container">
+        <h1>Santhosh</h1>
+        <a href="https://www.linkedin.com/in/santhosh-g-733568291/" class="footer-icon" target="_blank"><i class="fa-brands fa-linkedin "></i></a>
+        <a href="https://github.com/Santhosh-006" class="footer-icon" target="_blank"><i class="fa-brands fa-github "></i></a> 
+        <a href="" class="footer-icon" target="_blank"><i class="fa-brands fa-square-instagram "></i></a>
+        <p>All rights reserved  &#169; 2024</p>
+      </footer>
 
 
      
