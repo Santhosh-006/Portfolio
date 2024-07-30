@@ -89,7 +89,7 @@ a{
 }
 
 .home-content{
-    width: 60%;
+    /* width: 60%; */
     margin: 20px 0px;
 }
 
@@ -114,7 +114,7 @@ a{
 
 }
 .home-image{
-    width: 40%;
+    /* width: 40%; */
     margin: 0px;
 }
 
@@ -195,17 +195,12 @@ a{
     justify-content: center;
     row-gap: 10px;
     text-align: center;
-    margin: 20px 100px;
+    margin: 20px 10px;
 }
 .skill-bars{
     width: 65%;
 }
 
-
-.skill-image img{
-    width: 800px;
-    height: 800px;
-}
 .skill-title{
     margin-bottom: 2px;
 }
@@ -271,20 +266,18 @@ a{
 }
 
 .forms{
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    /* width: 400px; */
+    text-align: center;
     margin-bottom: 20px;
     
 }
 
 .form-fields{
-    font-size: 15px;
     margin: 7px;
-    width: 100%;
-    border-radius: 15px;
-    border: solid rgb(0, 0, 0) 0.5px;
-    padding: 17px;
+    width: 400px;
+    border-radius: 5px;
+    border: solid grey 0.5px;
+    padding: 5px 10px;
 }
 
 .forms textarea{
@@ -292,14 +285,12 @@ a{
 }
 
 .button-form{
-    display: block;
-    font-size: 15px;
+    font-weight: 300;
     background-color: var(--first-color);
     color: #fff;
     border-radius: 20px;
     padding: 10px 20px;
     border: none;
-    margin-left: auto;
     
 }
 
@@ -328,24 +319,48 @@ a{
 
 @media  screen and (max-width:728px) {
     .container{
-        margin: 0 20px;
+        margin: 0 30px;
+    }
+
+    .nav{
+        display: none;
     }
     .home{
         flex-direction: column;
         height: 100%;
     }
     .home-content{
-        width: 50%;
+
     }
     .home-image{
-        width: 50%;
+        margin: 20px;
+    }
+    .home-image img{
+        width: 300px;
     }
     .about{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .about-image{
+        width: 100%;
+    }
+    .about-image img{
+        width: 150px;
+    }
+    .about-content{
+        width: 100%;
+    }
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
     .skill-bars{
+        width: 100%;
+    }
+    .form-fields{
         width: 90%;
     }
 }
